@@ -1,2 +1,109 @@
-<h1>Hello There!</h1>
-<h2>Huda here</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GitHub Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+            transition: background-color 0.3s;
+        }
+        nav ul li a:hover {
+            background-color: #555;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .profile-img {
+            max-width: 200px;
+            border-radius: 50%;
+            margin: 0 auto;
+            display: block;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My GitHub Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="home" class="section">
+            <h2>Home</h2>
+            <p>Welcome to my personal website where I showcase my projects and share information about myself.</p>
+        </section>
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <div>
+                <img src="profile.jpg" alt="Profile Picture" class="profile-img">
+                <p>Hi, I'm Huda Mohsin, a Machine learning Engineer/NLP. I enjoy working on innovative projects and sharing my work with the community.</p>
+            </div>
+        </section>
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <p>Here are some of my projects:</p>
+            <ul>
+                <li><a href="https://github.com/yourusername/project1" target="_blank">Project 1</a></li>
+                <li><a href="https://github.com/yourusername/project2" target="_blank">Project 2</a></li>
+                <li><a href="https://github.com/yourusername/project3" target="_blank">Project 3</a></li>
+            </ul>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>You can reach me at <a href="mailto:hudamohsin5@gmail.com">hudamohsin5@gmail.com</a>.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Huda Mohsin. All rights reserved.</p>
+    </footer>
+</body>
+</html>
