@@ -8,16 +8,65 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: white;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        h2 {
+            margin-top: 20px;
+        }
+
+        section {
+            padding: 40px 0;
+        }
+
+        .project-card {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 15px 0;
+            transition: transform 0.3s, background 0.3s;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 255, 255, 0.4);
+        }
+
+        .footer-area {
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        a {
+            color: #f39c12;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 
 <body>
     <!-- Header Section -->
     <header class="header-area">
-        <div class="container">
-            <h1>Huda Mohsin</h1>
-            <h2>Machine Learning Engineer</h2>
-            <p>Karachi, Pakistan</p>
-        </div>
+        <h1>Huda Mohsin</h1>
+        <h2>Machine Learning Engineer</h2>
+        <p>Karachi, Pakistan</p>
     </header>
     <!-- Header Section End -->
 
@@ -47,38 +96,36 @@
     <section id="projects" class="section-padding">
         <div class="container">
             <h2>Projects</h2>
-            <ul>
-                <li>
-                    <h3>Object Detection</h3>
-                    <p>Description: Developed an advanced object detection system using Convolutional Neural Networks (CNNs) that can identify and classify objects in real-time video streams. The model was trained on a diverse dataset to ensure high accuracy and robustness.</p>
-                    <p>Technologies: Generative AI, LLMs, Python</p>
-                    <p>Link: <a href="[Your project link]">View Project</a></p>
-                </li>
-                <li>
-                    <h3>Facial Recognition System</h3>
-                    <p>Description: Created a facial recognition system utilizing deep learning algorithms to improve security protocols. This system accurately identifies individuals from a database in various lighting conditions and angles.</p>
-                    <p>Technologies: Generative AI, LLMs, Python</p>
-                    <p>Link: <a href="[Your project link]">View Project</a></p>
-                </li>
-                <li>
-                    <h3>Pesticides Prediction Model</h3>
-                    <p>Description: Developed a predictive model to assess the need for pesticides based on crop conditions and environmental factors. This machine learning model aids farmers in making informed decisions, thereby promoting sustainable agriculture.</p>
-                    <p>Technologies: Generative AI, LLMs, Python</p>
-                    <p>Link: <a href="[Your project link]">View Project</a></p>
-                </li>
-                <li>
-                    <h3>Chatbot for Financial Organization</h3>
-                    <p>Description: Designed a conversational AI chatbot that assists customers in navigating financial products and services. The bot leverages natural language processing (NLP) to understand user queries and provide relevant information.</p>
-                    <p>Technologies: Generative AI, LLMs, Python</p>
-                    <p>Link: <a href="[Your project link]">View Project</a></p>
-                </li>
-                <li>
-                    <h3>Financial Data Extraction</h3>
-                    <p>Description: Implemented a financial document information extraction system that uses machine learning and LLMs to accurately extract relevant data from invoices and receipts, streamlining data entry processes for organizations.</p>
-                    <p>Technologies: Generative AI, LLMs, Python</p>
-                    <p>Link: <a href="[Your project link]">View Project</a></p>
-                </li>
-            </ul>
+            <div class="project-card">
+                <h3>Object Detection</h3>
+                <p>Description: Developed an advanced object detection system using Convolutional Neural Networks (CNNs) that can identify and classify objects in real-time video streams. The model was trained on a diverse dataset to ensure high accuracy and robustness.</p>
+                <p>Technologies: Generative AI, LLMs, Python</p>
+                <p>Link: <a href="[Your project link]">View Project</a></p>
+            </div>
+            <div class="project-card">
+                <h3>Facial Recognition System</h3>
+                <p>Description: Created a facial recognition system utilizing deep learning algorithms to improve security protocols. This system accurately identifies individuals from a database in various lighting conditions and angles.</p>
+                <p>Technologies: Generative AI, LLMs, Python</p>
+                <p>Link: <a href="[Your project link]">View Project</a></p>
+            </div>
+            <div class="project-card">
+                <h3>Pesticides Prediction Model</h3>
+                <p>Description: Developed a predictive model to assess the need for pesticides based on crop conditions and environmental factors. This machine learning model aids farmers in making informed decisions, thereby promoting sustainable agriculture.</p>
+                <p>Technologies: Generative AI, LLMs, Python</p>
+                <p>Link: <a href="[Your project link]">View Project</a></p>
+            </div>
+            <div class="project-card">
+                <h3>Chatbot for Financial Organization</h3>
+                <p>Description: Designed a conversational AI chatbot that assists customers in navigating financial products and services. The bot leverages natural language processing (NLP) to understand user queries and provide relevant information.</p>
+                <p>Technologies: Generative AI, LLMs, Python</p>
+                <p>Link: <a href="[Your project link]">View Project</a></p>
+            </div>
+            <div class="project-card">
+                <h3>Financial Data Extraction</h3>
+                <p>Description: Implemented a financial document information extraction system that uses machine learning and LLMs to accurately extract relevant data from invoices and receipts, streamlining data entry processes for organizations.</p>
+                <p>Technologies: Generative AI, LLMs, Python</p>
+                <p>Link: <a href="[Your project link]">View Project</a></p>
+            </div>
         </div>
     </section>
     <!-- Projects Section End -->
